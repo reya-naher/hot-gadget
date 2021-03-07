@@ -1,28 +1,33 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   max-width: 100%;
 }
+
 .carousel-indicators li {
   background-color: rgba(70, 70, 70, 0.25);
   height: 5px;
 }
+
 .carousel-indicators .active {
-  background-color:#f5de0e;
+  background-color: #f5de0e;
 }
-.img-bg{
+
+.img-bg {
   height: 200px;
-  box-shadow:  15px 15px 40px rgba(102, 100, 100, 0.25);
+  box-shadow: 15px 15px 40px rgba(102, 100, 100, 0.25);
 }
-.categories-h1{
-  border-bottom: 5px solid #f5de0e ;
- 
+
+.categories-h1 {
+  border-bottom: 5px solid #f5de0e;
+
 }
+
 .customized-h1::after {
   content: '';
   display: inherit;
   width: 10%;
   margin: 10px auto;
   border-bottom: 10px solid #f5de0e;
-  border-radius:  20px;
+  border-radius: 20px;
 }
